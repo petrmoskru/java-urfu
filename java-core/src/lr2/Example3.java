@@ -15,16 +15,16 @@ public class Example3 {
 
         while (true) {
             System.out.println("Выполнить обратное преобразование? (y/n)");
-            scanner.nextLine(); // Consume newline left-over
+            scanner.nextLine();
             String response = scanner.nextLine();
 
             if (response.equalsIgnoreCase("y")) {
                 String decryptedText = decrypt(encryptedText, key);
                 System.out.println("Текст после обратного преобразования: " + decryptedText);
-                break; // Выходим из цикла после выполнения обратного преобразования
+                break;
             } else if (response.equalsIgnoreCase("n")) {
                 System.out.println("До свидания!");
-                break; // Выходим из цикла, завершаем программу
+                break;
             } else {
                 System.out.println("Введите корректный ответ");
             }
