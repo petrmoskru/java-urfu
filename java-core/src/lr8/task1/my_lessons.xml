@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lessons>
+    <lesson>
+        <name>Математика</name>
+        <professor>Иван Иванович</professor>
+        <credits>5</credits>
+    </lesson>
+    <lesson>
+        <name>Программирование</name>
+        <professor>Мария Сергеевна</professor>
+        <credits>4</credits>
+    </lesson>
+</lessons>
